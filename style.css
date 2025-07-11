@@ -82,7 +82,7 @@ body{
 .main-section{
   display: flex;
   justify-content: space-between;
-  margin: 50px 110px ;
+  margin: 80px 300px ;
   align-items: center;
   
   
@@ -114,7 +114,7 @@ font-size: 24px;
    }
  .item-title{
   
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 800;
  }
  .item-description{
@@ -122,12 +122,15 @@ font-size: 24px;
  }
 .about-items{
   display: flex;
+    
    justify-content: space-around;
+    
+
   
 }
  .Users{
   background-color:#d2d2e7;
-  margin:120px 120px;
+  margin:50px 320px;
   border-radius: 12px;
    font-style: italic;
    font-size:20px;
@@ -141,12 +144,13 @@ font-size: 24px;
   font-size: 72px;
   font-weight: bold;
   color:  #252432;
+  margin-top: 40px;
 }
 
 .testimonial-section {
   display: flex; 
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
   padding: 50px;
   position:relative;
    
@@ -212,7 +216,7 @@ p {
  justify-content: space-around;
  display: block;
  border-radius: 8px  white solid;
- margin: 0px 150px;
+ margin: 0px 290px;
 }
  .skill-title{
   font-size: 50px;
@@ -223,13 +227,17 @@ p {
   border-radius: 48px;
   margin-bottom: 70px;
  }
-   /* General Body Styles */
-
-  
-
 .container {
     max-width: 1200px;
     margin: 50px auto;
+    padding: 20px;
+    display: flex;  
+    align-items: center; 
+}
+
+ .container {
+    max-width: 1200px;
+    margin: 40px auto;
     padding: 20px;
     display: flex;  
     align-items: center; 
@@ -242,8 +250,7 @@ p {
     width: 100%;
     padding: 40px; 
     box-sizing: border-box; 
-     
-    border-radius: 8px;
+  
 }
 
 .contact-left {
@@ -255,14 +262,14 @@ p {
 }
 
 .contact-left h1 {
-    font-size:97px;  
-    color:#000000;
+    font-size: 5em; 
+    color: #0e0101;
     margin: 0; 
 }
 
 .contact-right {
-    flex: 1.2;  
-    min-width: 350px;  
+    flex: 1.2; 
+    min-width: 350px; 
 }
 
 .form-group {
@@ -293,19 +300,20 @@ p {
 }
 
 .submit-button {
-    background-color: #0c3cb6; 
+    background-color: #124fe9; 
     color: white;
     padding: 12px 25px;
     border: none;
-    border-radius: 10px;
+    border-radius: 4px;
     font-size: 1.1em;
     cursor: pointer;
+    transition: background-color 0.3s ease;
     width: 100%;  
-    box-sizing: border-box;  
+    box-sizing: border-box; 
 }
 
 .submit-button:hover {
-    background-color: #3a68e0;  
+    background-color: #3a68e0; 
 }
 
 /* Footer Styles */
@@ -314,18 +322,21 @@ footer {
     padding: 40px 20px;
     text-align: center;
     border-top: 1px solid #eee;
-    margin-top: 50px;  
+    margin-top: 50px; 
 }
 
 .footer-content {
     max-width: 900px;
     margin: 0 auto;
+    color: #0042eb;
+    font-size: 2em;
+
 }
 
 .footer-logo {
-    font-size :100px;;
+    font-size: 3em;
     font-weight: bold;
-    color: #0649f1; 
+    color: #0d4df0;  
     margin-bottom: 15px;
 }
 
@@ -337,14 +348,14 @@ footer p {
 }
 
 .footer-nav a {
-    color: #8987A1;
+    color: #695f5f;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
     transition: color 0.3s ease;
+    font-size: 20px;
 }
 
 .footer-nav a:hover {
-    color: #4a7dff; 
+    color: #0042eb; 
 }
- 
