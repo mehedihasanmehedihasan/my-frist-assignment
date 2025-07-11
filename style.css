@@ -212,7 +212,7 @@ p {
  justify-content: space-around;
  display: block;
  border-radius: 8px  white solid;
- margin: 0px 170px;
+ margin: 0px 150px;
 }
  .skill-title{
   font-size: 50px;
@@ -300,7 +300,6 @@ p {
     border-radius: 10px;
     font-size: 1.1em;
     cursor: pointer;
-    transition: background-color 0.3s ease;
     width: 100%;  
     box-sizing: border-box;  
 }
@@ -338,7 +337,7 @@ footer p {
 }
 
 .footer-nav a {
-    color: #555;
+    color: #8987A1;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
