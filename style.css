@@ -82,7 +82,7 @@ body{
 .main-section{
   display: flex;
   justify-content: space-between;
-  margin: 80px 300px ;
+  margin: 80px 390px ;
   align-items: center;
   
   
@@ -111,9 +111,9 @@ font-size: 24px;
    text-align: center;
    font-size: 38px;
    font-weight: bold;
-   }
- .item-title{
   
+  }
+ .item-title{
   font-size: 60px;
   font-weight: 800;
  }
@@ -122,14 +122,15 @@ font-size: 24px;
  }
 .about-items{
   display: flex;
-   justify-content: space-around;
+  justify-content: space-around;
     
 
   
 }
  .Users{
+  
   background-color:#d2d2e7;
-  margin:50px 320px;
+  margin:50px 380px;
   border-radius: 12px;
    font-style: italic;
    font-size:20px;
@@ -145,12 +146,15 @@ font-size: 24px;
   color:  #252432;
   margin-top: 40px;
 }
-
+.heading{
+  text-align: center;
+  margin-bottom:40px;
+}
 .testimonial-section {
   display: flex; 
   justify-content: center;
-  gap: 40px;
-  padding: 50px;
+  gap: 30px;
+  padding: 60px;
   position:relative;
    
 }
@@ -215,7 +219,7 @@ p {
  justify-content: space-around;
  display: block;
  border-radius: 8px  white solid;
- margin: 0px 290px;
+ margin: 0px 390px;
 }
  .skill-title{
   font-size: 50px;
@@ -272,7 +276,8 @@ p {
 }
 
 .form-group {
-    margin-bottom: 20px;
+  
+    justify-content: space-around;
 }
 
 .form-group label {
@@ -358,3 +363,4 @@ footer p {
 .footer-nav a:hover {
     color: #0042eb; 
 }
+
