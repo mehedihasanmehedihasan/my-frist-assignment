@@ -111,7 +111,6 @@ font-size: 24px;
    text-align: center;
    font-size: 38px;
    font-weight: bold;
-  
   }
  .item-title{
   font-size: 60px;
@@ -161,9 +160,10 @@ font-size: 24px;
 
 .testimonial-card {
   background-color: white;
-  padding: 20px;
-  width: 290px;
-  height:300px ;
+  padding: 30px;
+  margin-left: 20px;
+  width: 280px;
+  height:320px ;
   border-radius: 12px;
   box-shadow: 0 0 5px rgba(2, 2, 2, 0.1);
   transition: transform 0.3s;
