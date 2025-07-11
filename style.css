@@ -1,4 +1,6 @@
-  
+body{
+  background-color: aliceblue;
+}  
  
 .open-sans-normal{
   font-family: "Open Sans", sans-serif;
@@ -70,8 +72,8 @@
   
  }  
 .button-style {
-  width: 290px;
-  height: 90px;
+  width: 250px;
+  height: 60px;
   font-style: italic;
   
 }
@@ -86,32 +88,38 @@
   
 }
 .main-title{
-  font-size: 40px;
+  font-size: 42px;
   color: #252432;
 }
 .main-discription{
 color:#525255;
+font-size: 24px;
  
 }
 .main-button{
-  width: 400px;
+  width: 300px;
   font-weight: bold;
+  
+   
 }
 
 .main-pic{
- border-radius: 20px;
- margin-top: 30px;
-
+ border-radius: 48px;
  }
  /* div */
    .title{
    text-align: center;
-   font-size: 40px;
- 
-   margin-top: 00px;
-    
+   font-size: 38px;
+   font-weight: bold;
    }
- 
+ .item-title{
+  
+  font-size: 50px;
+  font-weight: 800;
+ }
+ .item-description{
+  font-size:20px;
+ }
 .about-items{
   display: flex;
    justify-content: space-around;
@@ -119,7 +127,7 @@ color:#525255;
 }
  .Users{
   background-color:#d2d2e7;
-  margin:116px 110px;
+  margin:120px 120px;
   border-radius: 12px;
    font-style: italic;
    font-size:20px;
@@ -128,9 +136,9 @@ color:#525255;
 
  }
  /* testimonial-section*/
-h1{
+.h1-hading{
   text-align: center;
-  font-size: 42px;
+  font-size: 72px;
   font-weight: bold;
   color:  #252432;
 }
@@ -138,7 +146,7 @@ h1{
 .testimonial-section {
   display: flex; 
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
   padding: 50px;
   position:relative;
    
@@ -147,29 +155,32 @@ h1{
 .testimonial-card {
   background-color: white;
   padding: 20px;
-  width: 270px;
-  height:200px ;
+  width: 290px;
+  height:300px ;
   border-radius: 12px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-shadow: 0 0 5px rgba(2, 2, 2, 0.1);
   transition: transform 0.3s;
 }
 
- 
+ .testimonial-card:hover{
+  border: 2px lawngreen dashed;
+  display: block;
+ } 
 .stars {
   color: #fbbf24; 
-  font-size: 18px;
+  font-size: 50px;
   margin-bottom: 10px;
 }
 
 h3 {
   margin: 0;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: bold;
 }
 
 p {
   color: #4b5563;  
-  font-size: 14px;
+  font-size: 18px;
   margin: 10px 0 20px ;
 }
 
@@ -195,4 +206,44 @@ p {
   color: #9ca3af;  
 }
 /* .skill-continer */
+.skill-continer{
+  text-align: center;
+  background-color: white;
+ justify-content: space-around;
+ display: block;
+ margin: 0px 150px;
+}
+ .skill-title{
+  font-size: 50px;
+  font-weight:800;
+  margin-top:70px ;
+ }
+ .skill-pic{
+  border-radius: 48px;
+  margin-bottom: 70px;
+ }
+ /* footer */
+   .contact-section{
+    display: flex;
+    justify-content: space-between;
+   }
+    .contact-left {
+    font-size: 50px;
+    font-weight: bold;
+   }
+  
+ 
+
+.sr-only input[type="email"],
+.sr-only input[type="text"],
+.sr-only textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: #333;
+    color: var(--text-color);
+    font-size: 16px;
+  }
  
