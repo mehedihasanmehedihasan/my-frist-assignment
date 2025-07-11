@@ -105,27 +105,42 @@
     <img class="skill-pic" src="Assets/wc-big.png" alt="">
   </section >
 
-   <section >
-    <div></div>
-            <div class="contact-colum">
-                <h2 class="contact-title">Let's Get in Touch</h2>
-                 <form action="">
-                  Name
-                 <input type="text" name="" id="" placeholder="ful name">
-                 Email
-                 <input type="email" name="" id="" placeholder="example@email.com">
-                  Mssage
-                  <textarea name="" id="">Mssage</textarea>
-                  <input type="submit" value="submit">
-        
+    <div class="container">
+        <div class="contact-section">
+            <div class="contact-left">
+                <h1>Let's Get in Touch</h1>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="example@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="write your message...."></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Get in Touch</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
-                 </form>
-        </section>
-    </main>
-      <footer class="footer">
-        <h2 class="footer-logo nav-title">LOGO</h2>
-        <p class="footer-description">Ready to kickstart your next Webflow project? Check our premium Webflow template and boost your projects now!</p>
-
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">LOGO</div>
+            <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
+            <nav class="footer-nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">How It Works</a>
+                <a href="#">Services</a>
+            </nav>
+        </div>
     </footer>
 
 </body>

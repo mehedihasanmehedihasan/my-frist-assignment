@@ -211,7 +211,8 @@ p {
   background-color: white;
  justify-content: space-around;
  display: block;
- margin: 0px 150px;
+ border-radius: 8px  white solid;
+ margin: 0px 170px;
 }
  .skill-title{
   font-size: 50px;
@@ -222,28 +223,129 @@ p {
   border-radius: 48px;
   margin-bottom: 70px;
  }
- /* footer */
-   .contact-section{
-    display: flex;
-    justify-content: space-between;
-   }
-    .contact-left {
-    font-size: 50px;
-    font-weight: bold;
-   }
-  
- 
+   /* General Body Styles */
 
-.sr-only input[type="email"],
-.sr-only input[type="text"],
-.sr-only textarea {
+  
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;  
+    align-items: center; 
+}
+
+/* Contact Section Styles */
+.contact-section {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    padding: 40px; 
+    box-sizing: border-box; 
+     
+    border-radius: 8px;
+}
+
+.contact-left {
+    flex: 1;
+    min-width: 300px; 
+    padding-right: 20px;
+    display: flex;
+    align-items: center; 
+}
+
+.contact-left h1 {
+    font-size:97px;  
+    color:#000000;
+    margin: 0; 
+}
+
+.contact-right {
+    flex: 1.2;  
+    min-width: 350px;  
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input[type="email"],
+.form-group input[type="text"],
+.form-group textarea {
     width: 100%;
     padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
-    background-color: #333;
-    color: var(--text-color);
-    font-size: 16px;
-  }
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box; 
+}
+
+.form-group textarea {
+    resize: vertical;  
+    min-height: 100px; 
+}
+
+.submit-button {
+    background-color: #0c3cb6; 
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;  
+    box-sizing: border-box;  
+}
+
+.submit-button:hover {
+    background-color: #3a68e0;  
+}
+
+/* Footer Styles */
+footer {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    margin-top: 50px;  
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-size :100px;;
+    font-weight: bold;
+    color: #0649f1; 
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.footer-nav a {
+    color: #555;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #4a7dff; 
+}
  
